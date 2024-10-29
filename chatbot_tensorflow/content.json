@@ -1,0 +1,31 @@
+{"intents":
+    [
+        {
+            "tag":"greeting",
+            "input":["hello","hii","hi"],
+            "responses":[
+                "Hi. Welcome How can i help you",
+                "Hey, do you need help ?"
+
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "input":["Thank you","Thanx","Thanks","Okay bye","bye","adios","see you later"],
+            "responses":[
+                "Okay, Bye",
+                "Have a nice day",
+                "Adios",
+                "Goodbye"
+            ]
+        },
+        {
+            "tag":"coldmedicine",
+            "input":["suggest cold medicines","name of cold medicines","buy cold medicines","buy medicine"],
+            "responses":[
+                "You can buy Nascoclear Saline Nasal Spray,Cofsils Ginger Lozenges,Acolate P Plus,Dolo 350"
+            ]
+        }
+    ]
+
+}
